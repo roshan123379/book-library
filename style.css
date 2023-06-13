@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    font-size: 39px;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    margin: 0.5cm;
+    color: rgb(92, 34, 139)
+}
+
+.add-book{
+    width: 100%;
+    height: 2cm;
+    text-align: center;
+    
+}
+.add-book button{
+    width: 4cm;
+    height: 1cm;
+    margin-top: 0.5cm;
+    background-color: rgb(58, 58, 214);
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 2px 2px 5px gray;
+}
+#para{
+    height: 1cm;
+    width: 100%;
+    padding-left: 39%;
+    font-size: 25px;
+}
+.formContainer{
+    margin: 0 40%;
+    margin-top: 1cm;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 30px;
+
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    margin: 1cm;
+    margin-top: 1cm;
+}
+
+input
+{
+    width: 8cm;
+    height: 1cm;
+    margin: 0.5cm 0;
+    border-bottom: 2px solid red;
+    border-left: white;
+    border-right: white;
+    border-top: white;
+    outline: 0;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 0.5cm;
+
+}
+label{
+    width: 8cm;
+    font-size: 19px;
+    font-weight: bold;
+}
+.formContainer button{
+    width: 8cm;
+    height: 1cm;
+    margin: 0.5cm 0;
+    background-color: rgb(58, 58, 214);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 2px 2px 5px grey;
+}
+.divs{
+    border: 1px solid black;
+    margin: 0.5cm;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px grey;
+    padding: 2% 15%;
+   
+    
+}
+.divs> p , button{
+    width: 6cm;
+    height: 1cm;
+    background-color: rgb(216, 213, 213);
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+    margin: 0.3cm;
+    border-radius: 10px;
+}
+
+#library{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4, 7cm);
+    grid-auto-rows: 7cm;
+}
+.divs button{
+    color: white;
+    background-color: red;
+    border: none;
+    box-shadow: 2px 2px 5px grey;
+}
+@media (max-width:412px){
+    .intro{
+        font-size: 31px;
+        padding: 0;
+    }
+    #para{
+        padding: 0 ;
+        text-align: justify;
+    }
+    .formContainer{
+        margin: 0;
+        width: 9cm;
+        margin-left: 10%;
+    }
+    input{
+        width: 7cm;
+    }
+    #form{
+        margin: 0.7cm;
+    }
+    #form button{
+        width: 7cm;
+        margin:0 0.3cm ;
+    }
+    
+    #library{
+        display: flex;
+        flex-direction: column;
+    }
+    .divs{
+        padding: 0;
+        width: 7cm;
+        margin: 0 16%;
+        margin-top: 1cm;
+    }
+    
+    
+}
