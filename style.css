@@ -118,17 +118,23 @@ label{
 }
 @media (max-width:412px){
     .intro{
-        font-size: 31px;
+        font-size: 29px;
         padding: 0;
+        margin: 0;
+        height: 3.5cm;
     }
     #para{
         padding: 0 ;
-        text-align: justify;
+        text-align: center;
+        height: 2cm;
+        font-size: 22px;
+
     }
     .formContainer{
         margin: 0;
         width: 9cm;
-        margin-left: 10%;
+        
+        margin-left: 3%;
     }
     input{
         width: 7cm;
